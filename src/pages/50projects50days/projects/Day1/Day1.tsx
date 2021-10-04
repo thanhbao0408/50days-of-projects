@@ -41,7 +41,9 @@ const Day1 = () => {
 
   return (
     <React.Fragment>
-      <Typography component="h1">Day 1 - Expanding Cards</Typography>
+      <Typography component="h1" variant="h3" sx={{ textAlign: 'center' }}>
+        Day 1 - Expanding Cards
+      </Typography>
       <Stack
         direction="row"
         alignItems="stretch"
