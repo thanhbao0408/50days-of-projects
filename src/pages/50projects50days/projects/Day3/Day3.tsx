@@ -21,13 +21,14 @@ const Day3 = () => {
 
   return (
     <React.Fragment>
-      <Box sx={{ border: '1px solid black', overflow: 'hidden', position: 'relative' }}>
+      <Box sx={{ border: '1px solid black', overflow: 'hidden', position: 'relative', height: '90%' }}>
         <Typography component="h1" variant="h3" sx={{ textAlign: 'center' }}>
           Day 3 - Rotating Navigation
         </Typography>
-        <Box mt={5} sx={{ overflow: 'hidden', backgroundColor: orange[800] }}>
+        <Box mt={5} sx={{ overflow: 'hidden', backgroundColor: orange[800], height: '100%' }}>
           <RotatingContent
             sx={{
+              height: '100%',
               transformOrigin: 'top left',
               backgroundColor: (theme) => theme.palette.common.white,
               mb: 0,
