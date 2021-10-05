@@ -57,8 +57,12 @@ const sidebarItems: SidebarItemProps[] = [
     url: 'day-9',
   },
   {
-    title: 'Day 10',
+    title: 'Day 10 - [MD Loading]',
     url: 'day-10',
+  },
+  {
+    title: 'Day 11 - [Deploy & Publish]',
+    url: 'day-11',
   },
 ];
 
