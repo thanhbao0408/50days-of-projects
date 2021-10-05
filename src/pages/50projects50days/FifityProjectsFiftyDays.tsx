@@ -39,6 +39,9 @@ const FifityProjectsFiftyDays = () => {
           </Route>
           <Route path={parentPath + '/day-3'}>
             <Projects.Day3 />
+          </Route>{' '}
+          <Route path={parentPath + '/day-4'}>
+            <Projects.Day4 />
           </Route>
         </Switch>
       </Box>
