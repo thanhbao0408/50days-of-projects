@@ -5,6 +5,8 @@ import Day3 from './Day3/Day3';
 import Day4 from './Day4/Day4';
 import Day5 from './Day5/Day5';
 
+import Day6 from './Day6/Day6';
+
 import Day10 from './Day10/Day10';
 import Day11 from './Day11/Day11';
 
@@ -15,6 +17,8 @@ const Projects = {
   Day3,
   Day4,
   Day5,
+  Day6,
+
   Day10,
   Day11,
 };
