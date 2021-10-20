@@ -8,7 +8,7 @@ import Day6 from './Day6/Day6';
 import Day7 from './Day7/Day7';
 import Day8 from './Day8/Day8';
 import Day9 from './Day9/Day9';
-import Day9_5 from './Day9_5/Day9_5';
+import Day9_5 from './Day9/Day9_5';
 import Day10 from './Day10/Day10';
 import Day11 from './Day11/Day11';
 

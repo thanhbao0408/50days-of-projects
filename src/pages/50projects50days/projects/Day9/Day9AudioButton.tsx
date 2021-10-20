@@ -11,12 +11,13 @@ interface Day9AudioButtonProps {
   currentPlayIndex: number;
   text: string;
   url: string;
+  isFadeInOut: boolean;
   playEvent: (index: number) => void;
 }
 
 const Day9AudioButton: React.FC<Day9AudioButtonProps> = (props) => {
-  const { index, currentPlayIndex, text, url, playEvent } = props;
-  const { playing, play, stop } = useAudio({ url });
+  const { index, currentPlayIndex, text, url, playEvent, isFadeInOut } = props;
+  const { playing, play, stop } = useAudio({ url, isFadeInOut });
 
   useEffect(() => {
     if (playing && index !== currentPlayIndex) {

@@ -35,7 +35,7 @@ const soundButtons = [
   },
 ];
 
-const Day9 = () => {
+const Day9_5 = () => {
   const [currentPlayIndex, setCurrentPlayIndex] = useState(-1);
 
   const soundPlayEvent = (index: number) => {
@@ -48,7 +48,7 @@ const Day9 = () => {
   return (
     <React.Fragment>
       <Typography component="h1" variant="h3" sx={{ textAlign: 'center' }}>
-        Day 9 - Sound Board Project
+        Day 9.5 - Sound Board Project with Fade In/Out effect
       </Typography>
       <Box
         className="body"
@@ -82,7 +82,7 @@ const Day9 = () => {
                 key={index}
                 {...info}
                 index={index}
-                isFadeInOut={false}
+                isFadeInOut
                 currentPlayIndex={currentPlayIndex}
                 playEvent={soundPlayEvent}
               ></Day9AudioButton>
@@ -94,4 +94,4 @@ const Day9 = () => {
   );
 };
 
-export default Day9;
+export default Day9_5;
