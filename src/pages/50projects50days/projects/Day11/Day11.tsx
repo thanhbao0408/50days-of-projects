@@ -76,7 +76,6 @@ const Day11 = () => {
                   title={info.eventName}
                   sx={{
                     backgroundColor: (theme) => theme.palette.grey[700],
-                    '& .MuiCardHeader-root': {},
                     '& .MuiCardHeader-title': {
                       fontSize: (theme) => theme.typography.body1.fontSize,
                       color: lime['A200'],
