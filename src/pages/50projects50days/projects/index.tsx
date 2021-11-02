@@ -12,6 +12,7 @@ import Day9_5 from './Day9/Day9_5';
 import Day10 from './Day10/Day10';
 import Day11 from './Day11/Day11';
 import Day12 from './Day12/Day12';
+import Day13 from './Day13/Day13';
 
 const Projects = {
   Day0_Introduction,
@@ -28,5 +29,6 @@ const Projects = {
   Day10,
   Day11,
   Day12,
+  Day13,
 };
 export default Projects;

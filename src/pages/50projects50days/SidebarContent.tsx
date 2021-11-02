@@ -72,6 +72,10 @@ const sidebarItems: SidebarItemProps[] = [
     title: 'Day 12',
     url: 'day-12',
   },
+  {
+    title: 'Day 13',
+    url: 'day-13',
+  },
 ];
 
 const SidebarContent = () => {

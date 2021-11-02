@@ -23,7 +23,6 @@ const kaomojisArray = [
   '♡＼(￣▽￣)／♡',
 ];
 
-// Cheer up NMC
 const Day12 = () => {
   const [imgSrcArray, setImgSrcArray] = useState([
     'https://media1.giphy.com/media/3ofT5QaQqhEXFFpRAc/giphy.gif?cid=e1bb72ffggjvldwrq36skmzc5bpg3r4unkrwl5mw1ou7gizk&rid=giphy.gif&ct=g',
@@ -167,18 +166,18 @@ const Day12 = () => {
           <Box
             key={index}
             sx={{
-              width: width,
-              height: height,
+              width: 'calc(100%/8)',
+              height: 'calc(100%/8)',
               position: 'absolute',
-              left: x * width,
-              top: y * height,
+              left: `calc(100%/8*${x})`,
+              top: `calc(100%/8*${y})`,
               overflow: 'hidden',
             }}
           >
             <Box
               component="img"
               src={imgSrc}
-              alt="Cheer up NMC"
+              alt="NMC"
               sx={{
                 width: '100%',
               }}
@@ -188,9 +187,7 @@ const Day12 = () => {
       })}
 
       <Box component="main">
-        <Typography textAlign="center" variant="h2" color="white" sx={{ fontWeight: 'bold' }}>
-          NCM co len. NMC co len co len co len.
-        </Typography>
+        <Typography textAlign="center" variant="h2" color="white" sx={{ fontWeight: 'bold' }}></Typography>
         <Box>
           <Typography noWrap color="white" variant="h4">
             {kaomojisText}
